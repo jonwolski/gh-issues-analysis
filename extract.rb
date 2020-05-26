@@ -2,6 +2,7 @@
 
 Bundler.require :default
 require './hypermedia_paged_collection'
+require 'active_support'
 
 Dotenv.load
 

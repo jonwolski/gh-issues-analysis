@@ -1,45 +1,47 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (5.0.0.1)
+    activesupport (6.0.3.1)
       concurrent-ruby (~> 1.0, >= 1.0.2)
-      i18n (~> 0.7)
+      i18n (>= 0.7, < 2)
       minitest (~> 5.1)
       tzinfo (~> 1.1)
-    addressable (2.5.0)
-      public_suffix (~> 2.0, >= 2.0.2)
-    coderay (1.1.1)
-    concurrent-ruby (1.0.2)
-    dalli (2.7.6)
-    dotenv (2.1.1)
-    faraday (0.11.0)
+      zeitwerk (~> 2.2, >= 2.2.2)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    coderay (1.1.2)
+    concurrent-ruby (1.1.6)
+    dalli (2.7.10)
+    dotenv (2.7.5)
+    faraday (1.0.1)
       multipart-post (>= 1.2, < 3)
-    faraday-http-cache (2.0.0)
-      faraday (~> 0.8)
-    i18n (0.7.0)
-    method_source (0.8.2)
-    minitest (5.10.1)
-    multipart-post (2.0.0)
-    octokit (4.6.2)
+    faraday-http-cache (2.2.0)
+      faraday (>= 0.8)
+    i18n (1.8.2)
+      concurrent-ruby (~> 1.0)
+    method_source (1.0.0)
+    minitest (5.14.1)
+    multipart-post (2.1.1)
+    octokit (4.18.0)
+      faraday (>= 0.9)
       sawyer (~> 0.8.0, >= 0.5.3)
-    pry (0.10.4)
-      coderay (~> 1.1.0)
-      method_source (~> 0.8.1)
-      slop (~> 3.4)
-    public_suffix (2.0.5)
-    sawyer (0.8.1)
-      addressable (>= 2.3.5, < 2.6)
-      faraday (~> 0.8, < 1.0)
-    slop (3.6.0)
-    thread_safe (0.3.5)
-    tzinfo (1.2.2)
+    pry (0.13.1)
+      coderay (~> 1.1)
+      method_source (~> 1.0)
+    public_suffix (4.0.5)
+    sawyer (0.8.2)
+      addressable (>= 2.3.5)
+      faraday (> 0.8, < 2.0)
+    thread_safe (0.3.6)
+    tzinfo (1.2.7)
       thread_safe (~> 0.1)
+    zeitwerk (2.3.0)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  activesupport
+  activesupport (>= 5.2.4.3)
   dalli
   dotenv
   faraday-http-cache
@@ -47,4 +49,4 @@ DEPENDENCIES
   pry
 
 BUNDLED WITH
-   1.13.6
+   1.17.2

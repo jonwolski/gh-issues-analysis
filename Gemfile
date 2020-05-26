@@ -6,4 +6,4 @@ gem 'pry'
 gem 'dalli'
 gem 'faraday-http-cache'
 gem 'dotenv'
-gem 'activesupport'
+gem "activesupport", ">= 5.2.4.3"
